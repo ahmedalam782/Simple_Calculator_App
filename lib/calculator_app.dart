@@ -106,9 +106,8 @@ class _CalculatorAppState extends State<CalculatorApp> {
             },
             onPressedRemove: () {
               setState(() {
-                if (firstNumber != 0) {
                   firstNumber--;
-                }
+
               });
             },
           ),
@@ -174,9 +173,8 @@ class _CalculatorAppState extends State<CalculatorApp> {
             },
             onPressedRemove: () {
               setState(() {
-                if (secondNumber != 0) {
                   secondNumber--;
-                }
+
               });
             },
           ),
